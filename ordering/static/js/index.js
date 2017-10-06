@@ -3,7 +3,7 @@
 
     var openWiki = function() {
         var url = $(this).data('href');
-        //window.open(url, '_blank');
+        window.open(url, '_blank');
     };
 
     var addFilters = function() {
@@ -44,7 +44,7 @@
     };
 
     var registerListeners = function() {
-        $('.episode').click(openWiki);
+        //$('.episode').click(openWiki);
         $('#filter-button').click(addFilters);
         $('#no-color').click(function() {
             console.log(Cookies.get('colour'));
