@@ -3,7 +3,7 @@
 
     var openWiki = function() {
         var url = $(this).data('href');
-        window.open(url, '_blank');
+        //window.open(url, '_blank');
     };
 
     var addFilters = function() {
